@@ -64,16 +64,6 @@ Lưu dữ liệu ra file
 file.txt
 
 📁 Cấu trúc thư mục
-
-
-1
-2
-3
-4
-5
-6
-7
-8
 Bspline3D/
 ├── main.cpp                  // Hàm chính và callback sự kiện từ chuột/bàn phím
 ├── point3d.h                 // Định nghĩa kiểu dữ liệu Point3D
