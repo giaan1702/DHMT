@@ -25,17 +25,6 @@ Tìm kiếm freeglut .
 Chọn gói freeglut do GDC phát triển và cài đặt vào project của bạn.
 Bước 2: Thêm file nguồn vào project
 Thêm tất cả các file sau vào project của bạn:
-
-
-
-1
-2
-3
-4
-5
-6
-7
-8
 Bspline3D/
 ├── main.cpp                  # File chính chứa hàm main và callback sự kiện
 ├── point3d.h                 # Định nghĩa kiểu Point3D
@@ -49,11 +38,6 @@ Include Path:
 Đảm bảo các file .h nằm trong thư mục include hoặc cùng cấp với main.cpp.
 Linker Libraries:
 Trong Project Properties → Linker → Input , thêm:
-
-
-1
-2
-3
 opengl32.lib
 glu32.lib
 glut32.lib
